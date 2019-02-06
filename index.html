@@ -1,0 +1,117 @@
+<!--
+Created By Gabriel Romualdo
+Copyright Gabriel Romualdo 2016
+Please Note: This Is Not The Uber Official Website
+-->
+
+
+<!doctype html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,300italic,300,100italic,100,400italic,700,700italic' rel='stylesheet' type='text/css'>
+  <meta charset="UTF-8">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:700|Merriweather:900|Bitter:700' rel='stylesheet' type='text/css'>
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  <title>Sign Up to Drive or Tap and Ride | Uber</title>
+  <script src="jquery.js" type="text/javascript"></script>
+  <script>
+    $( document ).ready(function(){
+        $('.fade').hide(0).fadeIn(1000);
+        $('#bodyness').hide(0).slideDown(5000);
+        $('.nav-regular').hover(function(){
+            $(this).css('border-top').fadeIn(2000);
+        });
+    });    
+  </script>
+</head>
+<body id="bodyness">
+  <a href="#"><div class="background-button-div"><h1>Start Riding With Uber</h1></div></a>
+  <header class="fade">
+    <nav>
+      <a href="#"><img src="img/triple-bar.png" alt="Menu-Bar" id="triple-bar"></a>
+      <a href="index.html"><img src="img/Logo.png" alt="Logo"></a>
+      <ul class="nav-left">
+        <li class="nav-regular"><a href="#" target="_blank">Ride</a></li>
+        <li class="nav-regular"><a href="#" target="_blank">Drive</a></li>
+      </ul>
+      <ul class="nav-right">
+        <li class="nav-regular"><a href="#" target="_blank">Find A City</a></li>
+        <li class="nav-regular"><a href="#" target="_blank">Help</a></li>
+        <li class="nav-regular"><a href="#" target="_blank">Sign In</a></li>
+        <li><a href="#" target="_blank" id="be-driver-btn">Become A Driver</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="main-section">
+    <div id="main-headers" class="fade">
+      <h1 id="main-header">Get There</h1>
+      <h1 id="main-header-light">Your Day Belongs To You</h1>
+    </div>
+
+    <img src="img/header-background.png" alt="Background" class="header-background" class="fade">
+
+    <!--Phone Sections-->
+    <img src="img/Phone1.png" alt="Phone 1" class="phones">
+    <div class="text-phone">
+      <p class="line-small-phone"></p>
+      <h1>Tap the app, get a ride</h1>
+      <p>Uber is the smartest way to get around. One tap and a car comes directly to you. Your driver knows exactly where to go. And payment is completely cashless.</p>
+    </div>
+
+    <img src="img/Phone2.png" alt="Phone 2" class="phones">
+    <div class="text-phone">
+      <p class="line-small-phone"></p>
+      <h1>Ready anywhere, anytime</h1>
+      <p>Daily commute. Errand across town. Early morning flight. Late night drinks. Wherever you’re headed, count on Uber for a ride—no reservations needed.</p>
+    </div>
+
+    <img src="img/Phone3.png" alt="Phone 3" class="phones">
+    <div class="text-phone">
+      <p class="line-small-phone"></p>
+      <h1>Low-cost to luxury</h1>
+      <p>You can always request everyday cars at everyday prices. But sometimes you need a bit more space. Or you want to go big on style. With Uber, the choice is yours.</p>
+    </div>
+
+    <!--Man In Car Section-->
+    <div id="man-car-section">
+        <div class="text-people-div">
+          <h3>Behind The Wheel</h3>
+          <h1>They’re people like you, going your way</h1>
+          <p>What makes the Uber experience truly great are the people behind the wheel. They are mothers and fathers. Students and teachers. Veterans. Neighbors. Friends. Our partners drive their own cars—on their own schedule—in cities big and small. Which is why more than one million people worldwide have signed up to drive.</p>
+          <a href="#" class="why-drive-btn">WHY DRIVE WITH UBER</a>
+        </div>
+        <img src="img/man-in-car.png" alt="Man In Car" class="man-car">
+    </div>
+
+    <!--Helping Cities Section-->
+    <div id="help-cities">
+        <div>
+        <img src="img/helping-cities.png" alt="Helping Cities Photo" class="help-places">
+        </div>
+        <div class="text-cities-div">
+          <h3>Helping Cities</h3>
+          <h1>For the good of all</h1>
+          <p>A city with Uber has more economic opportunities for residents, fewer drunk drivers on the streets, and better access to transportation for those without it.</p>
+        </div>
+    </div>
+    
+    <div id="woman-car-section">
+        <div class="text-people-div">
+          <h3>Safety</h3>
+          <h1>Putting people first</h1>
+          <p>Whether riding in the backseat or driving up front, every part of the Uber experience has been designed around your safety and security.</p>
+        </div>
+        <img src="img/woman.png" alt="Woman In Car" class="woman-car">
+    </div>
+    
+    <footer>
+        <img src="img/footer-img.png" alt="Footer Image" width="100%" class="foot-img">
+        <h1>© Uber Inc.</h1>
+        <a href="#"><h2 class="foot-a1">Sign Up To Ride</h2></a>
+        <a href="#"><h2 class="foot-a2">Become A Driver</h2></a>
+    </footer>
+  </div>
+</body>
+</html>
